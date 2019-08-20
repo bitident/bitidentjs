@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mvs.org/">
+  <a href="https://bitident.com">
     <img src="https://raw.githubusercontent.com/mvs-org/lightwallet/master/src/assets/logo.png" alt="">
   </a>
   <br>
@@ -7,7 +7,8 @@
      <img src="https://travis-ci.org/canguruhh/bitidentjs.png?branch=master" alt="Build status">
   </a>
   <br>
-  A javascript library for the Metaverse blockchain
+  Library for decentralized authentication requests on the Metaverse Blockchain
+  <a href="https://bitident.com">bitident.com</a>
 </p>
 
 ## Installation
@@ -23,7 +24,7 @@ const Bitident = require('bitident');
 ```
 <a href="https://nodei.co/npm/bitident/"><img src="https://nodei.co/npm/bitident.png?downloads=true&downloadRank=true&stars=true"></a>
 
-
+##Usage
 ### Request encoding
 ``` javascript
 const { Request } = require('bitident')
