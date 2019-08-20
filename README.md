@@ -24,7 +24,7 @@ const Bitident = require('bitident');
 ```
 <a href="https://nodei.co/npm/bitident/"><img src="https://nodei.co/npm/bitident.png?downloads=true&downloadRank=true&stars=true"></a>
 
-##Usage
+## Usage
 ### Request encoding
 ``` javascript
 const { Request } = require('bitident')
