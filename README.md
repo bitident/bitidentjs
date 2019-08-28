@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://bitident.com">
-    <img src="https://bitident.com/assets/img/logo.png" alt="Bitident">
+    <img src="https://bitident.com/assets/img/bitident.png" alt="Bitident">
   </a>
   <br>
   <a href="https://travis-ci.org/canguruhh/bitidentjs">
