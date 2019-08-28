@@ -1,14 +1,14 @@
 {
   "name": "bitident",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Library for decentralized authentication requests on the Metaverse Blockchain",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/canguruhh/bitident.git"
+    "url": "https://github.com/bitident/bitident.git"
   },
   "bugs": {
-    "url": "https://github.com/canguruhh/bitidentjs/issues",
+    "url": "https://github.com/bitident/bitidentjs/issues",
     "email": "bugs@bitident.com"
   },
   "scripts": {
