@@ -1,6 +1,6 @@
 {
   "name": "bitident",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Library for decentralized authentication requests on the Metaverse Blockchain",
   "main": "dist/index.js",
   "repository": {
