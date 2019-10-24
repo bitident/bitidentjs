@@ -12,6 +12,7 @@
     "email": "bugs@bitident.com"
   },
   "scripts": {
+    "build": "tsc",
     "test": "mocha test"
   },
   "author": "Sven Mutzl",

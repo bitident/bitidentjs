@@ -6,6 +6,7 @@ export class AuthRequest extends MetaverseRequest {
     public source: string
     public sourceSignature: string
     public target: string
+    public targetSignature: string
     public callback: string
     public time: number
     public timeout: number
@@ -21,11 +22,13 @@ export class AuthRequest extends MetaverseRequest {
         callback = '',
         time = 0,
         timeout = 0,
+        targetSignature = '',
     }) {
         super(version, network)
         this.source = source
         this.target = target
         this.sourceSignature = sourceSignature
+        this.targetSignature = targetSignature
         this.callback = callback
         this.time = time
         this.timeout = timeout
@@ -44,6 +47,7 @@ export class AuthRequest extends MetaverseRequest {
             encodeVarInt(this.timeout),
             encodeVarStr(this.callback),
             encodeVarStr(this.sourceSignature, 'hex'),
+            encodeVarStr(this.targetSignature, 'hex'),
         ])
     }
 
@@ -60,6 +64,7 @@ export class AuthRequest extends MetaverseRequest {
             timeout: decodeVarInt(buffer, config),
             callback: decodeVarStr(buffer, config),
             sourceSignature: decodeVarStr(buffer, config, 'hex'),
+            targetSignature: decodeVarStr(buffer, config, 'hex'),
         })
 
     }
